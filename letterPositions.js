@@ -22,19 +22,6 @@ const assertEqual = function(actual, expected) {
     return console.log(`❎ Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-/*
-const countLetters = function(sentence) {
-  const result = {};
-  for (const letter of sentence) {
-    if (result[letter]) {
-      result[letter] += 1;
-    } else {
-      result[letter] = 1;
-    }
-  }
-  return result;
-};
-*/
 
 const letterPositions = function(sentence) {
   const results = {};
