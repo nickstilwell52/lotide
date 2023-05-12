@@ -49,3 +49,5 @@ console.log(assertEqual(results1,[1, 2, 5, 7, 2,]));
 console.log('---');
 console.log(results2);
 console.log(assertEqual(results2,["I've", "been", "to", "Hollywood"]));
+
+module.exports = takeUntil;

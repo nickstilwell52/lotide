@@ -41,3 +41,6 @@ const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, word => word[0]);
 console.log(assertEqual((results1),['g','c','t','m','t']));
 console.log(assertEqual((results1),['a','b','c','d','e']));
+
+
+module.exports = map;

@@ -40,3 +40,5 @@ console.log(result1);
 assertEqual(result1["L"], 2);
 assertEqual(result1["H"], 1);
 assertEqual(result1["A"], undefined);
+
+module.exports = countLetters;

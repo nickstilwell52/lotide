@@ -24,3 +24,5 @@ const assertEqual = function(actual, expected) {
 };
 
 console.log(assertEqual(results2,2));
+
+module.exports = findKey;

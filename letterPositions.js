@@ -45,3 +45,5 @@ assertEqual(result1["e"], [1]);
 assertEqual(result1["l"], [2,3,9]);
 assertEqual(result1["o"], [4,7]);
 assertEqual(result1[" "], undefined);
+
+module.exports = letterPositions;
