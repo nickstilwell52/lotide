@@ -1,0 +1,11 @@
+node_modules/
+#the below files are being ignored because i am using mocha + chai for my tests
+assertArraysEqual.js
+assertEqual.js
+assertObjectsEqual.js
+#the below files are being ignored because I ran out of time
+countLetters.js
+findKey.js
+map.js
+takeUntil.js
+without.js
