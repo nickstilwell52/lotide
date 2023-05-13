@@ -3,7 +3,7 @@ const assert = require('chai').assert;
 
 
 
-describe("#countOnly", () => {
+describe("#eqObjects", () => {
   it("returns true for 'shirtObject, anotherShirtObject'", () => {
     assert.strictEqual(eqObjects(shirtObject, anotherShirtObject), true);
   });
