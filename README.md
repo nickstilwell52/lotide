@@ -1,12 +1,21 @@
 # Lotide
+A mini clone of the [Lodash](https://lodash.com) library.
 
-# How to use it:
-## [index](index.js) 
-this file will require every module (file containing the function) listed below.
+## Purpose
+
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
+## Usage:
+**Install it:**\
+`npm install @nickstilwell52/lotide`
+
+**Require it:**\
+`const _ = require('@nickstilwell52/lotide');`
 
 so when you require the index like this:
 ```JavaScript
-    const _ = require('index');
+    const _ = require('@nickstilwell52/lotide');
 ```
 this will create an object containing all the functions, which will allow you to access a certain function, for example:
 
